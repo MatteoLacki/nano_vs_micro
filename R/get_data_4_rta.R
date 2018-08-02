@@ -12,7 +12,6 @@ good_folder_names = tools::file_path_sans_ext(files_to_check)
 path = paths_to_check[1]
 output_path = "data/micro_vs_nano"
 
-
 prepare_data_for_alignment = function(path,
                                       output_path = "data/micro_vs_nano"){
   base_name = tools::file_path_sans_ext(basename(path))
